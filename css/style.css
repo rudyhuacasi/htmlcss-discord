@@ -169,59 +169,85 @@ header{
     font-size: 28px;
     margin-top: -15px;
 }
+.violet{
+    background-color: rgb(120, 57, 238);
+    color: white;
+}
 /*finish square-5*/
 /*square-6*/
 .sfondo-4{
-    background-color: black;
-    height: 500px; 
+    background-color: rgba(0, 0, 0, 0.78);
+    height: 550px;
+    display: flex; 
 }
 .container-5{
     width: 1200px;
-    margin: 0 auto; 
+    margin: auto; 
     display: flex;  
 }
+.centro{
+    display: flex;
+    flex-direction: column;
+}
 .square-4{
-    background-color: rgb(50, 179, 136);
     width: calc(100%/6);
     height: 350px;
-    border: 1px dashed white;
-    margin-top: 10px;
+}
+.color-violet{
+    color: rgb(120, 57, 238);
+    font-size: 20px;
+}
+strong{
+    color: white;
+    margin: 7px;
 }
 .square-rosa{
-    background-color: rgb(221, 118, 135);
     width: calc(100%/6*2);
     height: 350px;
-    border: 1px dashed black;
-    margin-top: 10px;
 }
-.violet{
-    background-color: rgb(120, 57, 238);
+h3{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: rgb(120, 57, 238);
+}
+.italia{
+    width: 25px;
+    height: 15px;
+    margin-top: 25px;
+}
+sup{
+    color: white;
+    margin-bottom: 5px;
+}
+.fa-brands{
+    margin: 16px 15px 0px 0px;
     color: white;
 }
 /* finish square-6*/
 /*footer*/
 footer{
-    background-color: black;
-    border-top: 1px solid silver;
-    height: 70px;
-    display: flex;
-    align-items: flex-end;
+    background-color: rgba(0, 0, 0, 0.78);;
+    height: 150px;
 }
 .container-6{
     width: 1200px;
     margin: 0 auto;
+    border-top: 1px solid rgb(120, 57, 238);
+    display: flex;
 }
 .square-5{
-    background-color: rgb(68, 255, 183);
     width: 100%;
-    height: 50px;
+    height: 70px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
 }
 .left{
-    background-color: pink;
-    width: 5%;
-    border: 1px dashed black;
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(120, 57, 238);
+    color: white;
 }
 /*finish footer*/
