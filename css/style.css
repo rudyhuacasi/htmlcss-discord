@@ -79,7 +79,7 @@ header{
 }
 .border{
     border-radius: 30px;
-    padding: 12px;
+    padding: 10px 20px;
     margin: 10px;
     border: none;
 }
@@ -88,79 +88,92 @@ header{
     color: white;
 }
 /*finish square-1*/
-/*square-2 e 4*/
+/*square-2*/
 .sfondo-1{
     background-color: white;
-    height: 400px;
+    height: 500px;
     display: flex;
     align-items: center;
 }
 .container-2{
     width: 1200px;
     margin: 0 auto; 
+    margin-top: 50px;
     display: flex;
+    justify-content: space-evenly;
 }
-.square-blue{
-    background-color: blue;
-    width: 60%;
-    height: 300px;
-    border: 1px dashed black;
+.item-1{
+    height: 350px;
 }
 .square-pin{
-    background-color: pink;
-    width: 40%;
-    height: 300px;
-    border: 1px dashed black;
+    width: 30%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
 }
-/*finish square-2 e 4*/
+.title-1{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+.center{
+    padding-top: 15px;
+    padding-right: 3px;
+    font-size: 19px;
+}
+/*finish square-2*/
+.wave{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: rgba(192, 192, 192, 0.5);
+    opacity: 0.05;
+}
 /*square-3*/
 .sfondo-2{
-    background-color: silver;
-    height: 400px;
+    background-color: rgba(0, 0, 0, 0.05);
+    height: 500px;
     display: flex;
     align-items: center;
-}
-.container-3{
-    width: 1200px;
-    margin: 0 auto; 
-    display: flex;
-}
-.square-pin-2{
-    background-color: pink;
-    width: 40%;
-    height: 300px;
-    border: 1px dashed black;
-}
-.square-blue-1{
-    background-color: blue;
-    width: 60%;
-    height: 300px;
-    border: 1px dashed black;
 }
 /* finish square-3*/
+.secondo{
+    transform: rotate(180deg);
+}
 /*square-5*/
 .sfondo-3{
-    background-color: silver;
-    height: 700px;
+    background-color: rgba(0, 0, 0, 0.05);;
+    height: 900px;
     display: flex;
     align-items: center;
 }
-  .container-4{
+.container-4{
     width: 1200px;
     margin: 0 auto; 
     display: flex;
+    justify-content: center;
 }
 .square-green{
-    background-color: green;
-    width: 100%;
-    height: 600px;
-    border: 1px dashed black;
+    width: 874px;
+    height: 800px;
+    text-align: center;
+    padding-top: 20px;
+}
+.align{
+    margin-top: 20px;   
+}
+.raleway{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    margin-top: -15px;
 }
 /*finish square-5*/
 /*square-6*/
 .sfondo-4{
     background-color: black;
-    height: 400px; 
+    height: 500px; 
 }
 .container-5{
     width: 1200px;
@@ -180,6 +193,10 @@ header{
     height: 350px;
     border: 1px dashed black;
     margin-top: 10px;
+}
+.violet{
+    background-color: rgb(120, 57, 238);
+    color: white;
 }
 /* finish square-6*/
 /*footer*/
